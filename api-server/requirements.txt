@@ -1,0 +1,7 @@
+flask==2.0.1
+werkzeug==2.0.3
+kafka-python==2.0.2
+mysql-connector-python==8.0.26
+prometheus-client==0.11.0
+python-dotenv==0.19.0
+requests==2.26.0 
