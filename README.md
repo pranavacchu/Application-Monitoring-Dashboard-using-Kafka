@@ -4,7 +4,7 @@
 
 A comprehensive log analytics and monitoring platform built using modern cloud-native technologies. This solution collects, processes, and visualizes logs and metrics from various services to provide real-time insights into application performance.
 
-## 📋 Overview
+## Overview
 
 This platform integrates several open-source components to create a robust monitoring solution:
 
@@ -16,7 +16,7 @@ This platform integrates several open-source components to create a robust monit
 - **Loki**: Scalable log aggregation system
 - **Grafana**: Visualization platform for metrics and logs
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐     ┌───────┐     ┌───────────────┐     ┌─────────┐
@@ -60,7 +60,7 @@ docker-compose ps
 
 All services should show a "running" state. Allow a few minutes for all services to initialize properly.
 
-## 🧪 System Verification
+##  System Verification
 
 ### API Health Check
 
@@ -81,7 +81,7 @@ curl -X POST -H "Content-Type: application/json" \
 curl http://localhost:5000/api/users
 ```
 
-## 🔗 Accessing Services
+##  Accessing Services
 
 | Service    | URL                   | Default Credentials |
 |------------|----------------------|---------------------|
@@ -89,7 +89,7 @@ curl http://localhost:5000/api/users
 | Prometheus | http://localhost:9090 | N/A                 |
 | API Server | http://localhost:5000 | N/A                 |
 
-## 💾 Data Persistence
+##  Data Persistence
 
 The platform utilizes Docker named volumes for data persistence:
 
@@ -101,7 +101,7 @@ The platform utilizes Docker named volumes for data persistence:
 | `loki_wal`       | Loki write-ahead log                   |
 | `prometheus_data`| Prometheus metrics storage             |
 
-## 📊 Grafana Dashboard Configuration
+##  Grafana Dashboard Configuration
 
 ### 1. Initial Configuration
 
@@ -162,7 +162,7 @@ For manual dashboard creation:
 3. Configure auto-refresh (5s recommended)
 4. Save with appropriate name and tags
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -200,7 +200,7 @@ docker-compose up -d
 - Use meaningful commit messages
 - Write tests for new features
 
-## 📝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/amazing-feature`
@@ -208,7 +208,7 @@ docker-compose up -d
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
