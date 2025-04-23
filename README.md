@@ -42,8 +42,8 @@ This platform integrates several open-source components to create a robust monit
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd Application-Monitoring-Dashboard
+git https://github.com/pranavacchu/Application-Monitoring-Dashboard-using-Kafka.git
+cd Application-Monitoring-Dashboard-using-Kafka
 ```
 
 ### 2. Deploy the stack
